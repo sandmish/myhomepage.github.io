@@ -1,37 +1,126 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/sandmish/myhomepage.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS font-family property</title>
+        
+<!-- link for external stylesheet -->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    </head>
+    <body>
+<!DOCTYPE html>
 
-### Markdown
+<html lang="en">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<head>
 
-```markdown
-Syntax highlighted code block
+<meta charset="utf-8" />
 
-# Header 1
-## Header 2
-### Header 3
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-- Bulleted
-- List
+<!-- title for the web page -->
 
-1. Numbered
-2. List
+<title>Contact</title>
 
-**Bold** and _Italic_ and `Code` text
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-[Link](url) and ![Image](src)
-```
+<!-- link for external stylesheet -->
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sandmish/myhomepage.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+</head>
 
-### Support or Contact
+<body>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!-- header for the page -->
+
+<div class="header">
+
+<center>
+
+<!-- heading -->
+
+<h1>Sandhya Mishra</h1>
+
+</center>
+
+<marquee>This is Sandhya Mishra page</marquee>
+
+<center>
+
+<div class="nav">
+
+<div class="dropdown">
+
+<button class="dropbtn">
+
+<!-- link for home page -->
+
+<a href="home.html">Home</a>
+
+</button>
+
+</div>
+
+<div class="dropdown">
+
+<button class="dropbtn">
+
+<!-- link for education -->
+
+<a href="education.html">Education</a>
+
+</button>
+
+</div>
+
+
+<!-- link for contact -->
+
+<div class="dropdown">
+
+<button class="dropbtn">
+
+<a href="contact.html">Contact</a>
+
+</button>
+
+</div>
+
+</div>
+
+</center>
+
+</div>
+
+<br>
+<br>
+
+<img id=image height="320" name="image" src="C:\Users\14044\Desktop\image.jpg" height="500" alt="Images" />
+<div class="info">
+
+
+<h2 align=justify>
+ She is a dynamic professional with 9 years of experience in Information Technology and Service Management Industries. She has managed projects for overseas clients including India, UK, and USA (when she was working in India) by collaborating with inhouse support team as well as vendors across the globe.<br> </align>
+
+</p>
+    </h2>
+</div> 
+    
+    
+    
+     <!-- footer for the page -->
+
+<div class="footer">
+
+<p>&copy; This is a private page, All rights are reserved !</p>
+
+</div>
+
+</body>
+
+</html>
